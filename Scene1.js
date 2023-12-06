@@ -3,6 +3,6 @@ class Scene1 extends Phaser.Scene {
 		super("bootGame");
 	}
   create() {
-  this.add.text(20,20,"Loading Game...");
+        this.add.text(20, 20, 'Starting Game...', { color: '#00ff00' }).setOrigin(0.5, 0);
   }
 }
